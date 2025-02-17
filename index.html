@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Simples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        section {
+            margin: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Site de Teste para Validação
+    </header>
+    <section>
+        <h2>Bem-vindo!</h2>
+        <p>Este é um site simples para testar validação e implantação.</p>
+        <a href="#contato" class="button">Entrar em Contato</a>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <input type="text" placeholder="Seu Nome" required><br>
+            <input type="email" placeholder="Seu E-mail" required><br>
+            <textarea placeholder="Sua Mensagem" rows="4" required></textarea><br>
+            <button type="submit" class="button">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
